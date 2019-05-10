@@ -119,3 +119,11 @@ body {
   width: 300px;
   border: 1px solid black;
 }
+.medium h2 {
+  font-size: 30px;
+  border: 2px solid black;
+  padding-bottom: 20px;
+}
+.opinion-piece {
+  background-image: url(../images/img-story-1.png);
+}
