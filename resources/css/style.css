@@ -42,7 +42,8 @@ body {
       color: black;
     }
 
-    /* Main content*/
+            /* Main content*/
+
  /* first column */
 
 .columns {
@@ -83,19 +84,16 @@ body {
   display: flex;
   flex-direction: column;
 }
- .large h2{
+ .large h2 {
    font-size: 30px;
    border: 2px solid black;
    padding-bottom: 20px;
-
-
  }
-
 
  .fall-cancelled {
    background-image: url(../images/img-story-2.png);
-
  }
+
  .image-content {
    display: flex;
    flex-direction: column;
@@ -104,11 +102,20 @@ body {
    width: 300px;
    height: 300px;
  }
+
  .image-content span {
    font-size: 40px;
    color: white;
    text-align: center;
  }
+
 .pop-culture {
   background-image: url(../images/img-story-3.png);
+}
+
+/* Second Column */
+
+.columns .medium {
+  width: 300px;
+  border: 1px solid black;
 }
